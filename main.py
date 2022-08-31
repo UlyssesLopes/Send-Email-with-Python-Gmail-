@@ -4,14 +4,14 @@ import email.message
 # configure email message
 
 # first define your body text to send
-body = """<h1> Olá, Ulysses </h1>
-<p>  Teste de Envio de Email </p>
+body = """<h1> Hello, Ulysses </h1>
+<p>  Test send email with python </p>
 """
 
 subject = 'Test Send Email with Python Function'
-my_from = 'ulysses.rlopes@gmail.com'
-my_to = 'ulysses.rlopes@gmail.com'
-my_password = 'mlqtlyittczuanhb'
+my_from = ' your email '
+my_to = ' email to '
+my_password = '###############'
 
 
 def send_email():
